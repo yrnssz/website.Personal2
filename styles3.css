@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #2b4f35;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+   /* Sidebar */
+   .sidebar {
+    width: 250px;
+    background-color: #1e3624;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .sidebar-header {
+    text-align: center;
+  }
+  
+  .sidebar-header h2 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 1rem 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .menu a:hover {
+    color: #D8EB72; /* Warna hover hijau terang */
+  }
+  
+  .sidebar-footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-footer li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar-footer a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .sidebar-footer a:hover {
+    color: #D8EB72;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #2b4f35;
+  }
+  
+  header .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .booking-section {
+    margin-top: 20px;
+  }
+  
+  .booking-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .booking-image {
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .details form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn-confirm {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-confirm:hover {
+    background-color: #4caf50;
+  }

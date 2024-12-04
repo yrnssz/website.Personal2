@@ -1,0 +1,160 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #2b4f35;
+    color: #fff;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #1e3624;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .sidebar-header {
+    text-align: center;
+  }
+  
+  .sidebar-header h2 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 1rem 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .menu a:hover {
+    color: #D8EB72; /* Warna hover hijau terang */
+  }
+  
+  .sidebar-footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-footer li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar-footer a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .sidebar-footer a:hover {
+    color: #D8EB72;
+  }
+  
+  /* Main Content */
+  .content {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-pic-placeholder {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #D8EB72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #1e3624;
+    font-weight: bold;
+  }
+  
+  .booking h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .search-form select,
+  .search-form input,
+  .search-form button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-form button {
+    background-color: #3ea74a;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #2f913a;
+  }
+  
+  .sports {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .sport {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #1e3624;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sport img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sport p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  

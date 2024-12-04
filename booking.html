@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolaraga Booking</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="logo.png" alt="Bolaraga Logo" style="width: 200px; margin-bottom: 10px;">
+      <nav>
+        <ul class="menu">
+          <li><a href="beranda.html"><span class="icon">🏠</span> Dashboard</a></li>
+          <li><a href="booking.html"><span class="icon">📅</span> Booking</a></li>
+          <li><a href="Pembayaran.html"><span class="icon">💳</span> Payment</a></li>
+          <li><a href="login.html"><span class="icon">🚪</span> Logout</a></li>
+        </ul>
+        <div class="sidebar-footer">
+          <ul>
+            <li><a href="halamanprofile.html"><span class="icon">👤</span> Account</a></li>
+            <li><a href="halamanhelp.html"><span class="icon">❓</span> Help</a></li>
+          </ul>
+      </div>
+    </aside>
+    <main class="content">
+      <header>
+        <div class="profile">
+          <img src="nopal.jpg" alt="Profile" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white;">
+          <span>naufal hanif</span>
+        </div>
+      </header>
+      <section class="booking-section">
+        <h2>Booking</h2>
+        <div class="booking-container">
+          <img src="futsal2.png" alt="Futsal" alt="booking-image">
+        </div>
+          <div class="details">
+            <h3>lapanganaskara: futsal</h3>
+            <p>Jam operasional:</p>
+            <ul>
+              <li>Senin - Jumat: 08:00 - 23:00</li>
+              <li>Sabtu - Minggu: 08:00 - 24:00</li>
+            </ul>
+            <p>Harga sewa per jam: <strong>Rp 150.000</strong></p>
+            <form>
+              <label for="date">Pilih Hari/Tanggal</label>
+              <input type="date" id="date">
+              <label for="time">Jam Booking</label>
+              <input type="time" id="time">
+            </form>
+          </div>
+          <button class="btn-confirm" onclick="window.location.href='Pembayaran.html';">Lanjutkan Pemesanan</button>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
